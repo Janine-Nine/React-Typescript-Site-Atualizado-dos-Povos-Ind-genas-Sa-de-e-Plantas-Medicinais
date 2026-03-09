@@ -1,3 +1,5 @@
+## 🌿 Povos Indígenas – Saúde e Plantas Medicinais ##
+
 # React-Typescript-Site-Atualizado-dos-Povos-Ind-genas-Sa-de-e-Plantas-Medicinais
 Site com HTML e CSS e JAVASCRIPT e REACT e TYPESCRIPT
 
@@ -12,56 +14,166 @@ API REST para o projeto:
 
 **Povos Indígenas – Saúde, Plantas Medicinais e Saberes Tradicionais**
 
----
+# Povos Indígenas API
 
-## 🚀 Tecnologias
+API REST desenvolvida em Spring Boot para o projeto educacional
+"Povos Indígenas – Saúde, Plantas Medicinais e Saberes Tradicionais".
+Projeto educacional e cultural que documenta saberes tradicionais indígenas sobre saúde e plantas medicinais, utilizando uma arquitetura moderna de Frontend + API REST + Banco de Dados.
 
-Java  
-Spring Boot  
-JWT Authentication  
-MySQL  
-Docker  
-Swagger  
-AWS S3  
+O sistema permite registrar, visualizar e administrar informações sobre plantas medicinais utilizadas por povos indígenas, preservando conhecimento tradicional em uma plataforma digital.
 
----
+🚀 Tecnologias Utilizadas
+Backend
 
-## 📊 Funcionalidades
+Java 21
 
-✔ CRUD de plantas medicinais  
-✔ Upload de imagens  
-✔ Dashboard administrativo  
-✔ API REST  
-✔ Autenticação JWT  
+Spring Boot
 
----
+Spring Security
 
-## 🐳 Rodar com Docker
+JWT Authentication
 
+Spring Data JPA
+
+MySQL
+
+Swagger / OpenAPI
+
+Docker
+
+Frontend
+
+React
+
+TypeScript
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Axios
+
+Cloud / Infraestrutura
+
+AWS EC2
+
+AWS S3 (upload de imagens)
+
+AWS RDS (MySQL)
+
+Docker
+
+📊 Funcionalidades
+
+✔ Cadastro de plantas medicinais
+✔ CRUD completo (Create, Read, Update, Delete)
+✔ Upload de imagens das plantas
+✔ Painel administrativo
+✔ Autenticação segura com JWT
+✔ API REST documentada
+✔ Formulário de contato
+✔ Dashboard administrativo
+
+🧠 Arquitetura do Sistema
+Frontend
+React + TypeScript
+HTML / CSS / JS
+       │
+       │ REST API
+       ▼
+Spring Boot Backend
+       │
+ ┌───────────────┬───────────────┬───────────────┐
+ ▼               ▼               ▼
+Auth JWT      Upload Images     Dashboard
+       │           │               │
+       ▼           ▼               ▼
+    Security      AWS S3        Metrics
+       │
+       ▼
+     MySQL
+       │
+       ▼
+     AWS Cloud
+🏗️ Arquitetura em Camadas (Backend)
+Controller
+   │
+Service
+   │
+Repository
+   │
+Database (MySQL)
+
+Essa separação segue boas práticas de arquitetura limpa e escalável.
+
+🐳 Rodando o Projeto com Docker
 docker-compose up --build
 
----
+O Docker irá subir:
 
-## 📚 Documentação API
+API Spring Boot
+
+Banco MySQL
+
+Dependências necessárias
+
+▶️ Rodar Backend Localmente
+mvn spring-boot:run
+
+Servidor iniciará em:
+
+http://localhost:8080
+📚 Documentação da API (Swagger)
+
+Após iniciar o projeto:
 
 http://localhost:8080/swagger-ui.html
+📁 Estrutura do Projeto
+povos-indigenas-api
 
----
+src
+ ├── controller
+ ├── service
+ ├── repository
+ ├── model
+ ├── dto
+ └── config
 
-## 🧠 Diagrama de arquitetura profissional
+frontend
+ ├── components
+ ├── pages
+ ├── services
+ └── styles
+🌎 Objetivo do Projeto
 
-                Frontend
-          HTML / CSS / JS
-                 │
-                 ▼
-          REST API (Spring Boot)
-                 │
-     ┌───────────┼───────────┐
-     ▼           ▼           ▼
- Authentication  Upload     Dashboard
-     │           │           │
-     ▼           ▼           ▼
-   JWT        AWS S3      Metrics
-     │
-     ▼
-    MySQL
+O projeto busca:
+
+preservar saberes tradicionais indígenas
+
+registrar plantas medicinais e seus usos
+
+promover educação cultural e científica
+
+criar uma plataforma digital acessível
+
+👩‍💻 Desenvolvido por
+
+Janine – Desenvolvedora Full Stack em formação
+
+Tecnologias focadas em:
+
+Java
+
+Spring Boot
+
+React
+
+TypeScript
+
+APIs REST
+
+Cloud Computing
+
+💡 Projeto educacional voltado para tecnologia, cultura e sustentabilidade.
