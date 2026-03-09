@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+</head>
+
+<body>
+
+<h1>Painel Administrativo</h1>
+
+<div id="totalPlantas"></div>
+
+<script>
+
+fetch("http://localhost:8080/dashboard/stats")
+.then(r => r.json())
+.then(data => {
+
+document.getElementById("totalPlantas").innerHTML =
+"Total de plantas cadastradas: " + data.totalPlantas
+
+})
+
+</script>
+
+</body>
+</html>
