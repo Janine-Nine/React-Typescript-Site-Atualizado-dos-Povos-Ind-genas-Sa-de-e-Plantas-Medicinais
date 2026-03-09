@@ -22,7 +22,8 @@ Projeto educacional e cultural que documenta saberes tradicionais indígenas sob
 
 O sistema permite registrar, visualizar e administrar informações sobre plantas medicinais utilizadas por povos indígenas, preservando conhecimento tradicional em uma plataforma digital.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas ##
+
 Backend
 
 Java 21
@@ -65,7 +66,9 @@ AWS RDS (MySQL)
 
 Docker
 
-📊 Funcionalidades
+---
+
+## 📊 Funcionalidades ##
 
 ✔ Cadastro de plantas medicinais
 ✔ CRUD completo (Create, Read, Update, Delete)
@@ -76,7 +79,10 @@ Docker
 ✔ Formulário de contato
 ✔ Dashboard administrativo
 
-🧠 Arquitetura do Sistema
+---
+
+## 🧠 Arquitetura do Sistema ##
+
 Frontend
 React + TypeScript
 HTML / CSS / JS
@@ -97,7 +103,12 @@ Auth JWT      Upload Images     Dashboard
        │
        ▼
      AWS Cloud
-🏗️ Arquitetura em Camadas (Backend)
+
+---
+
+## 🏗️ Arquitetura em Camadas (Backend) ##
+
+
 Controller
    │
 Service
@@ -106,9 +117,10 @@ Repository
    │
 Database (MySQL)
 
-Essa separação segue boas práticas de arquitetura limpa e escalável.
+---
 
-🐳 Rodando o Projeto com Docker
+## 🐳 Rodando o Projeto com Docker ##
+
 docker-compose up --build
 
 O Docker irá subir:
@@ -117,7 +129,9 @@ API Spring Boot
 
 Banco MySQL
 
-Dependências necessárias
+---
+
+## Dependências necessárias ##
 
 ▶️ Rodar Backend Localmente
 mvn spring-boot:run
@@ -125,12 +139,19 @@ mvn spring-boot:run
 Servidor iniciará em:
 
 http://localhost:8080
-📚 Documentação da API (Swagger)
+
+---
+
+## 📚 Documentação da API (Swagger) ##
 
 Após iniciar o projeto:
 
 http://localhost:8080/swagger-ui.html
-📁 Estrutura do Projeto
+
+---
+
+## 📁 Estrutura do Projeto ##
+
 povos-indigenas-api
 
 src
@@ -146,7 +167,10 @@ frontend
  ├── pages
  ├── services
  └── styles
-🌎 Objetivo do Projeto
+
+ ---
+ 
+## 🌎 Objetivo do Projeto ##
 
 O projeto busca:
 
@@ -158,7 +182,9 @@ promover educação cultural e científica
 
 criar uma plataforma digital acessível
 
-👩‍💻 Desenvolvido por
+---
+
+## 👩‍💻 Desenvolvido por ##
 
 Janine – Desenvolvedora Full Stack em formação
 
@@ -176,4 +202,4 @@ APIs REST
 
 Cloud Computing
 
-💡 Projeto educacional voltado para tecnologia, cultura e sustentabilidade.
+##💡 Projeto educacional voltado para tecnologia, cultura e sustentabilidade. ##
